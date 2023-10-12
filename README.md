@@ -1,0 +1,7 @@
+# RPG-Game
+
+Embarking on one of my early forays into CSS and JavaScript, this project unfolds as a captivating text-based RPG game, showcasing a dynamic main menu that metamorphoses in response to user interactions. Each click on buttons, such as "Go to Store," triggers a cascade of options, unveiling an intricate web of decisions, particularly in the realm of weapon purchases. The game's objective is clear: conquer monsters, accumulate XP points, and amass gold to procure superior weapons and bolster health. A meticulous calculation of XP points and weaponry levels orchestrates the player's overall strength, where elevated XP and top-tier weaponry herald formidable prowess.
+
+The pinnacle of the game is the face-off with the menacing dragon, an endeavor requiring an accumulation of XP points, robust health, and wielded high-class weaponry. Victory in this epic confrontation heralds the restoration of the town's tranquility. Adding a layer of intrigue, a concealed mini-game awaits discovery, unveiling itself after vanquishing a monster. In this hidden gem, players can augment their gold reserves, adding a strategic twist to the gaming experience.
+
+Elevating the immersive quality, the project places a deliberate emphasis on sound design, with meticulous audio engineering accomplished through Pro Tools and the Waves Bundle. This conscientious approach ensures that each sound seamlessly integrates into the game, enhancing the overall auditory experience.
