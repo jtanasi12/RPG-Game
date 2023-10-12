@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:,">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Video Game</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-primary">
+   
+        <div id="game" class=" pb-2 ">
+
+            <div id="playerStats" class=" h3 p-2 text-center mb-5">
+                <span class="stat">XP: 
+                    <strong>
+                        <span id="xpText">0</span>
+                    </strong>
+                </span>
+
+                <span class="stat">Health: 
+                    <strong>
+                        <span id="healthText">100</span>
+                    </strong>
+                </span>
+
+                <span class="stat">Gold: 
+                    <strong>
+                        <span id="goldText">50</span>
+                    </strong>
+                </span>
+            </div>
+
+            <div id="controls" class="mt-2 p-2 d-flex justify-content-center mb-5">
+                <button id="button1" >Go to store</button>
+                <button id="button2">Go to cave</button>
+                <button id="button3">Fight dragon</button>
+            </div>
+
+            <div id="monster-stats" class="mt-2 text-danger"> 
+                    <strong class= "monster_spacing text-danger fw-bold text-center">
+                        Monster Name:
+                        <span id="monsterName"> </span>
+                    </strong>
+
+                    <strong class= "monster_spacing text-danger fw-bold text-center">
+                        Monster Health:
+                        <span id="monsterHealth"> </span>
+                    </strong>
+                </span>
+            </div>
+
+
+            <div id="text" class="text_utility mt-2 h3 fw-bold text-center bg-dark-subtle lead p-5 mb-4 ">Welcome to Dragon Repeller. You must deafeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.</div>
+
+       
+            <div class="center-button">
+                <button id="button4">
+                    Play Music
+                </button>
+            </div>
+
+            <script src="main.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        </body>
+</html>
